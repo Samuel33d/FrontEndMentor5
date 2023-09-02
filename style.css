@@ -134,6 +134,7 @@ svg{
         background-image: none;
         gap: 1ren;
         position: relative;
+        padding: 3rem;
     }
 
     .header{
@@ -166,6 +167,7 @@ svg{
         position: absolute;
         right: 0;
         bottom: 0;
+
     }
 
 }
