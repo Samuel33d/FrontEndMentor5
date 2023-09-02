@@ -149,6 +149,7 @@ svg{
         gap: 0;
         top: 0px;
         height: 100%;
+        gap: 1rem;
     }
 
     .card__info > h2{
@@ -161,10 +162,10 @@ svg{
     }
 
     .card__footer{
-        justify-content: space-around;
+        justify-content: space-evenly;
         position: absolute;
         right: 0;
-        bottom: 30px;
+        bottom: 0;
     }
 
 }
