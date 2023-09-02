@@ -125,7 +125,7 @@ svg{
         background-size: cover;
         background-repeat: no-repeat;
     }
-
+    
 
     .card__huddle{
         display: grid;
@@ -154,12 +154,19 @@ svg{
     }
 
     .card__info > h2{
-        font-size: 2.5rem;
+        font-size: 3rem;
         line-height: 3.5rem;
     }
 
+
     .card__info button{
         width: 50%;
+    }
+
+    .card__info button:hover{
+        background-color: var(--SoftMagenta);
+        color:#fff;
+        cursor: pointer;;
     }
 
     .card__footer{
@@ -167,7 +174,14 @@ svg{
         position: absolute;
         right: 0;
         bottom: 0;
+    }
 
+    .icono > a:hover svg{
+        fill: var(--SoftMagenta);
+    }
+
+    .icono > a:hover{
+        border: 1px solid var(--SoftMagenta);
     }
 
 }
