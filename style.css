@@ -132,7 +132,7 @@ svg{
         place-items: end;
         grid-template-columns: repeat(2,1fr);
         background-image: none;
-        gap: 0;
+        gap: 1ren;
         position: relative;
     }
 
